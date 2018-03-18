@@ -1,0 +1,7 @@
+<div class="padding" id="listbox">
+  <p>Lista de itens:</p>
+  <br />
+  <ul class="ms-List" id="list" *ngFor="let c of contracts">
+    <app-my-list-item [item]="c"></app-my-list-item>
+  </ul>
+</div>
